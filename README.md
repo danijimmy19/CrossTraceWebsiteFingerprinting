@@ -10,6 +10,8 @@ The <code>src</code> directory comprises sub-directories, each of which is label
 - For experiments A1 and A2, execute following command ```python <name-of-script.py> /path/to/save/model/model-name.h5 /path/to/dataset```
 - For experiments A3, A4, and A5 execute the following command ```python <name-of-script.py> /path/to/wt-def-model.h5 /path/to/paired/dataset```
 
+##### Python Libraries Required
+
 #### Dataset
 The used data set is given as CSV files for this research. For each experiment six CSV files are required, each of which is described in the following manner:
 - x_train: This file contains the traffic traces which are used as an input for the CNN for training
