@@ -14,6 +14,7 @@ The <code>src</code> directory comprises sub-directories, each of which is label
   - nlp-analysis: contains scripts for performing cross-trace attack on MockingBird defended dataset. To run the script, execute the following command ```python <name-of-script.py> /path/to/mb-def-model.h5 /path/to/paired/dataset```
 
 ##### Additional Python Libraries Required
+In addition, certain more libraries are needed to run scripts other than the pre-installed python packages. The following are the libraries:
 - tensorflow-gpu==2.3.1
 - sentence-transformers==0.4.1.2
 - gensim==3.8.3
