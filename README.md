@@ -20,6 +20,7 @@ The <code>src</code> directory comprises sub-directories, each of which is label
 - pandas
 - numpy==1.19.5
 - scikit-learn==0.23.2
+- nltk==3.5
 
 ⚠️ **Note:** It will take a while to get results from __WMD__ and __BERT__.
 
