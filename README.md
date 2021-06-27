@@ -29,6 +29,6 @@ The used data set is provided as CSV files for this research. For each experimen
 
 **Note:** The data needed for various experiments are organized in subdirectories similar to the code.
 
-#### Contact
+#### Questions and Comments
 - Jimmy Dani (<danijy@mail.uc.edu>), University of Cincinnati
 - Boyang Wang (<boyang.wang@uc.edu>), University of Cincinnati
