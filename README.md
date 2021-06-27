@@ -9,7 +9,9 @@ The <code>src</code> directory comprises sub-directories, each of which is label
 
 - For experiments A1 and A2, execute following command ```python <name-of-script.py> /path/to/save/model/model-name.h5 /path/to/dataset```
 - For experiments A3, A4, and A5 execute the following command ```python <name-of-script.py> /path/to/wt-def-model.h5 /path/to/paired/dataset```
-- For experiment A6
+- For experiment A6, the directory contains two sub-directories model-training and nlp-analysis
+  - model-training: contains script for training model defended using MockingBird defense. To run this script, execute the following command ```python <name-of-script.py> /path/to/save/model/model-name.h5 /path/to/dataset```
+  - nlp-analysis: contains scripts for performing cross-trace attack on MockingBird defended dataset. To run the script, execute the following command ```python <name-of-script.py> /path/to/mb-def-model.h5 /path/to/paired/dataset```
 
 #### Dataset
 
