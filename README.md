@@ -14,7 +14,7 @@ The <code>src</code> directory comprises sub-directories, each of which is label
 
 The dataset used for this research is available at this [link](https://mailuc-my.sharepoint.com/:f:/g/personal/danijy_mail_uc_edu/EvKxdrCQoxlPn2e43Ihiv1oBInJ7nABN35R5kG-PedQ_SQ?e=BM7axE).
 
-The used data set is given as CSV files for this research. For each experiment six CSV files are required, each of which is described in the following manner:
+The used data set is provided as CSV files for this research. For each experiment six CSV files are required, each of which is described in the following manner:
 - x_train: This file contains the traffic traces which are used as an input for the CNN for training
 - y_train: This file contains labels corresponding to the traffic traces available in x_train
 - x_valid: This file contains the traffic traces used for validation
