@@ -4,7 +4,7 @@
 
 This repository contains source code and data for reproducing our results from HiddenText: Cross-Trace Website Fingerprinting Over Encrypted Traffic. 
 
-#### Code
+### Code
 The <code>src</code> directory comprises sub-directories, each of which is labeled as a performance evaluation part of the paper depending on experiment name. At the beginning of each script the instructions to execute the script are included.
 
 - For experiments A1 and A2, execute following command ```python <name-of-script.py> /path/to/save/model/model-name.h5 /path/to/dataset```
@@ -25,7 +25,7 @@ In addition, certain more libraries are needed to run scripts other than the pre
 
 ⚠️ **Note:** It will take a while to get results from __WMD__ and __BERT__.
 
-#### Dataset
+### Dataset
 
 The dataset used for this research is available at this [link](https://mailuc-my.sharepoint.com/:f:/g/personal/danijy_mail_uc_edu/EvKxdrCQoxlPn2e43Ihiv1oBInJ7nABN35R5kG-PedQ_SQ?e=BM7axE).
 
@@ -39,6 +39,6 @@ The used data set is provided as CSV files for this research. For each experimen
 
 **Note:** The data needed for various experiments are organized in subdirectories similar to the code.
 
-#### Questions and Comments
+### Questions and Comments
 - Jimmy Dani (<danijy@mail.uc.edu>), University of Cincinnati
 - Boyang Wang (<boyang.wang@uc.edu>), University of Cincinnati
