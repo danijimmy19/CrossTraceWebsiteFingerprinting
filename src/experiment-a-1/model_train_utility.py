@@ -160,53 +160,6 @@ def load_data_wt_def(data_path, features):
     print('number of classes in the dataset: ', nb_classes)
     return x_train, y_train, x_valid, y_valid, x_test, y_test, nb_classes
 
-# Defining function for loading data
-def load_data_front_def(data_path, features):
-    '''
-    This method loads the wt-defended dataset for training the model.
-    :param data_path: path to directory containing data
-    :param features: number of features of the dataset to be used for training
-    :return: training, validation, and testing dataset
-    '''
-    print('reading the dataset from %s ...'%(data_path))
-    # Point to the directory storing data
-    dataset_dir = data_path
-
-    # X represents a sequence of traffic directions
-    # y represents a sequence of corresponding label (website's label)
-
-    # Load training data
-    x_train = pd.read_csv(dataset_dir + 'x_train_front_def.csv')
-    x_train = x_train.iloc[:, 0:features]
-    y_train = pd.read_csv(dataset_dir + 'y_train_front_def.csv', header=None)
-    print('Training data loaded successfully.')
-
-    # Load validation data
-    x_valid = pd.read_csv(dataset_dir + 'x_valid_front_def.csv')
-    x_valid = x_valid.iloc[:, 0:features]
-    y_valid = pd.read_csv(dataset_dir + 'y_valid_front_def.csv', header=None)
-    print('Validation data loaded successfully.')
-
-    # Load testing data
-    x_test = pd.read_csv(dataset_dir + 'x_test_front_def.csv')
-    x_test = x_test.iloc[:, 0:features]
-    y_test = pd.read_csv(dataset_dir + 'y_test_front_def.csv', header=None)
-    print('Testing data loaded successfully.')
-
-    nb_classes = len(np.unique(y_test))
-    print('number of classes in dataset: ', nb_classes)
-
-    print('Data dimensions:')
-    print('X training data shape: ', x_train.shape)
-    print('y training data shape: ', y_train.shape)
-    print('X validation data shape: ', x_valid.shape)
-    print('y validation data shape: ', y_valid.shape)
-    print('X testing data shape: ', x_test.shape)
-    print('y testing data shape: ', y_test.shape)
-    print('dataset loaded successfully!')
-    print('number of classes in the dataset: ', nb_classes)
-    return x_train, y_train, x_valid, y_valid, x_test, y_test, nb_classes
-
 def build_model(params, nb_classes):
     model = Sequential()
     filter_num = ['None', params['filter_nums_1'], params['filter_nums_2'], params['filter_nums_3'],
