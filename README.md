@@ -13,6 +13,14 @@ The <code>src</code> directory comprises sub-directories, each of which is label
   - model-training: contains script for training model defended using MockingBird defense. To run this script, execute the following command ```python <name-of-script.py> /path/to/save/model/model-name.h5 /path/to/dataset```
   - nlp-analysis: contains scripts for performing cross-trace attack on MockingBird defended dataset. To run the script, execute the following command ```python <name-of-script.py> /path/to/mb-def-model.h5 /path/to/paired/dataset```
 
+##### Additional Python Libraries Required
+- tensorflow-gpu==2.3.1
+- sentence-transformers==0.4.1.2
+- gensim==3.8.3
+- pandas
+- numpy==1.19.5
+- scikit-learn==0.23.2
+
 ⚠️ **Note:** It will take a while to get results from __WMD__ and __BERT__.
 
 #### Dataset
